@@ -1048,7 +1048,7 @@ namespace {
          */
         public static function handle($input, $output = null){
             //Method inherited from \Illuminate\Foundation\Console\Kernel            
-            return \ExpCms\Console\Kernel::handle($input, $output);
+            return \App\Console\Kernel::handle($input, $output);
         }
         
         /**
@@ -1061,7 +1061,7 @@ namespace {
          */
         public static function terminate($input, $status){
             //Method inherited from \Illuminate\Foundation\Console\Kernel            
-            \ExpCms\Console\Kernel::terminate($input, $status);
+            \App\Console\Kernel::terminate($input, $status);
         }
         
         /**
@@ -1074,7 +1074,7 @@ namespace {
          */
         public static function call($command, $parameters = array()){
             //Method inherited from \Illuminate\Foundation\Console\Kernel            
-            return \ExpCms\Console\Kernel::call($command, $parameters);
+            return \App\Console\Kernel::call($command, $parameters);
         }
         
         /**
@@ -1087,7 +1087,7 @@ namespace {
          */
         public static function queue($command, $parameters = array()){
             //Method inherited from \Illuminate\Foundation\Console\Kernel            
-            \ExpCms\Console\Kernel::queue($command, $parameters);
+            \App\Console\Kernel::queue($command, $parameters);
         }
         
         /**
@@ -1098,7 +1098,7 @@ namespace {
          */
         public static function all(){
             //Method inherited from \Illuminate\Foundation\Console\Kernel            
-            return \ExpCms\Console\Kernel::all();
+            return \App\Console\Kernel::all();
         }
         
         /**
@@ -1109,7 +1109,7 @@ namespace {
          */
         public static function output(){
             //Method inherited from \Illuminate\Foundation\Console\Kernel            
-            return \ExpCms\Console\Kernel::output();
+            return \App\Console\Kernel::output();
         }
         
         /**
@@ -1120,7 +1120,7 @@ namespace {
          */
         public static function bootstrap(){
             //Method inherited from \Illuminate\Foundation\Console\Kernel            
-            \ExpCms\Console\Kernel::bootstrap();
+            \App\Console\Kernel::bootstrap();
         }
         
     }
@@ -1228,7 +1228,7 @@ namespace {
         /**
          * Get the currently authenticated user.
          *
-         * @return \ExpCms\User|null 
+         * @return \App\Models\User|null 
          * @static 
          */
         public static function user(){
@@ -1330,7 +1330,7 @@ namespace {
          *
          * @param mixed $id
          * @param bool $remember
-         * @return \ExpCms\User 
+         * @return \App\Models\User 
          * @static 
          */
         public static function loginUsingId($id, $remember = false){
@@ -1435,7 +1435,7 @@ namespace {
         /**
          * Return the currently cached user of the application.
          *
-         * @return \ExpCms\User|null 
+         * @return \App\Models\User|null 
          * @static 
          */
         public static function getUser(){
@@ -1477,7 +1477,7 @@ namespace {
         /**
          * Get the last user we attempted to authenticate.
          *
-         * @return \ExpCms\User 
+         * @return \App\Models\User 
          * @static 
          */
         public static function getLastAttempted(){
