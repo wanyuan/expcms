@@ -1,4 +1,4 @@
-<?php namespace ExpCms\Events;
+<?php namespace App\Events;
 
 abstract class Event {
 

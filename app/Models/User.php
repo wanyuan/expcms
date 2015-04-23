@@ -1,4 +1,4 @@
-<?php namespace ExpCms;
+<?php namespace App\Models;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;

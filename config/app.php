@@ -140,11 +140,11 @@ return [
 		/*
 		 * Application Service Providers...
 		 */
-		'ExpCms\Providers\AppServiceProvider',
-		'ExpCms\Providers\BusServiceProvider',
-		'ExpCms\Providers\ConfigServiceProvider',
-		'ExpCms\Providers\EventServiceProvider',
-		'ExpCms\Providers\RouteServiceProvider',
+		'App\Providers\AppServiceProvider',
+		'App\Providers\BusServiceProvider',
+		'App\Providers\ConfigServiceProvider',
+		'App\Providers\EventServiceProvider',
+		'App\Providers\RouteServiceProvider',
 
 	],
 
