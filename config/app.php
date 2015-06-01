@@ -52,7 +52,7 @@ return [
 	|
 	*/
 
-	'locale' => 'en',
+	'locale' => 'zh-CN',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -136,6 +136,8 @@ return [
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
         'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
+        'Barryvdh\Debugbar\ServiceProvider',
+
 
 		/*
 		 * Application Service Providers...
@@ -193,7 +195,7 @@ return [
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
-
+        'Debugbar'  => 'Barryvdh\Debugbar\Facade',
 	],
 
 ];

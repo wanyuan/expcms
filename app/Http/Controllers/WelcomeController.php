@@ -1,5 +1,8 @@
 <?php namespace App\Http\Controllers;
 
+use Illuminate\Http\Request;
+use Illuminate\Support\Collection;
+
 class WelcomeController extends Controller {
 
 	/*
@@ -26,13 +29,17 @@ class WelcomeController extends Controller {
 	public function index()
 	{
 		return view('welcome');
+
 	}
 
     /**
      * 关于我们介绍
      */
     public function about(){
-        echo "about";
+
+
     }
+
+
 
 }
