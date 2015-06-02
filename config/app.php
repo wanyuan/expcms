@@ -138,7 +138,6 @@ return [
         'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
         'Barryvdh\Debugbar\ServiceProvider',
 
-
 		/*
 		 * Application Service Providers...
 		 */

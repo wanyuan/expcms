@@ -36,7 +36,7 @@ class WelcomeController extends Controller {
      * 关于我们介绍
      */
     public function about(){
-
+        echo url("/home");
 
     }
 

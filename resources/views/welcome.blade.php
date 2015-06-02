@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<title>Laravel</title>
+
 		<style>
 			body {
 				margin: 0;
