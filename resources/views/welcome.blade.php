@@ -1,10 +1,7 @@
 <html>
 	<head>
 		<title>Laravel</title>
-<<<<<<< HEAD
 
-=======
->>>>>>> f5a2c3459640a557961a9f89f59ee86823c40201
 		<style>
 			body {
 				margin: 0;
