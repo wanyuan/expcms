@@ -1,7 +1,10 @@
 <html>
 	<head>
 		<title>Laravel</title>
+<<<<<<< HEAD
 
+=======
+>>>>>>> f5a2c3459640a557961a9f89f59ee86823c40201
 		<style>
 			body {
 				margin: 0;
@@ -11,7 +14,7 @@
 				color: #B0BEC5;
 				display: table;
 				font-weight: 100;
-				font-family: 'Lato';
+				font-family: '微软雅黑';
 			}
 
 			.container {

@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: ExpCms
-        psr4_prefix: ExpCms
+        namespace: App
+        psr4_prefix: App
         src_path: app

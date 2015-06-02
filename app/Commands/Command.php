@@ -1,4 +1,4 @@
-<?php namespace ExpCms\Commands;
+<?php namespace App\Commands;
 
 abstract class Command {
 

@@ -19,7 +19,7 @@
 			"database"
 		],
 		"psr-4": {
-			"ExpCms\\": "app/"
+			"App\\": "app/"
 		}
 	},
 	"autoload-dev": {
