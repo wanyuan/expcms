@@ -2,7 +2,7 @@
 
 use Carbon\Carbon;
 use Illuminate\Http\Request;
-use Illuminate\Support\Collection;
+use Input;
 
 class WelcomeController extends Controller {
 
@@ -15,7 +15,6 @@ class WelcomeController extends Controller {
 	/**
 	 * 构造函数
 	 *
-	 * @return void
 	 */
 	public function __construct()
 	{
@@ -38,6 +37,8 @@ class WelcomeController extends Controller {
      */
     public function about(){
 //        echo captcha_img();
+        Input::get('myname');
+
         echo trans('validation.before' ,['attribute' => '日期','date' => Carbon::now()]);
 
     }
