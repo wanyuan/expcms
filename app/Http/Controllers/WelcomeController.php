@@ -1,5 +1,6 @@
 <?php namespace App\Http\Controllers;
 
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
 
@@ -36,7 +37,8 @@ class WelcomeController extends Controller {
      * 关于我们介绍
      */
     public function about(){
-        echo url("/home");
+//        echo captcha_img();
+        echo trans('validation.before' ,['attribute' => '日期','date' => Carbon::now()]);
 
     }
 
